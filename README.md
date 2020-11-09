@@ -42,7 +42,7 @@ cmake_minimum_required(VERSION 3.10...3.17.2 FATAL_ERROR)
 project(MySoftware 
         VERSION "0.0.1.0" 
         DESCRIPTION "MySoftware" 
-        HOMEPAGE_URL "https://github.com/SDHCAL/MySoftware" .
+        HOMEPAGE_URL "https://github.com/SDHCAL/MySoftware"
         LANGUAGES CXX)
 
 set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
@@ -55,9 +55,9 @@ cmmm(VERSION "1.0" URL "https://raw.githubusercontent.com/flagarde/CMakeMM"
      ALWAYS_DOWNLOAD)
 
 cmmm_modules_list(URL "https://raw.githubusercontent.com/SDHCAL/SDHCALCMakeModules" 
+                  BRANCH main
                   DESTINATION "Modules")
 
 # Now download the modules
-include(PreventInSourceBuilds)
-prevent_in_source_builds()
+include(Colors)
 ```
