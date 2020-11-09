@@ -7,7 +7,7 @@ This depot groups all the `Cmake Modules` needed to build the `SDHCAL` softwares
 ## How to use these modules
 
 ### 1. Download `GetCMakeMM.cmake`
-To use `CMakeMM` you have to download `GetCMakeMM.cmake` and put it in your CMake module folder `cmake` for example.
+To use `CMakeMM` you have to download the latest `GetCMakeMM.cmake` https://github.com/flagarde/CMakeMM/releases and put it in a place CMake can find it.
 ### 2. Use `GetCMakeMM.cmake` in your `CMakeLists.txt'.
  ```cmake
 	set(CMAKE_MODULE_PATH "${CMAKE_MODULE_PATH}" "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
@@ -27,7 +27,8 @@ To use `CMakeMM` you have to download `GetCMakeMM.cmake` and put it in your CMak
                    FILENAME ModuleLists
                    DESTINATION "Modules")
  ```
- This will donwload the module list file called `ModuleLists.cmake` in folder `modules` on branch `master` of the github depot `https://raw.githubusercontent.com/SDHCAL/SDHCALCMakeModules`. *More options are available*
+ This will donwload the module list file called `ModuleLists.cmake` in folder `modules` on branch `master` of the github depot `https://raw.githubusercontent.com/SDHCAL/SDHCALCMakeModules`. 
+ *More options are available*
  ### 4. Include the module you need
   ```cmake
   include(MyWonderfulModule)
