@@ -1,4 +1,4 @@
-# SDHCALCMakeModules 
+# SDHCALCMakeModules  ![GitHub](https://img.shields.io/github/license/SDHCAL/SDHCALCMakeModules) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/SDHCAL/SDHCALCMakeModules) ![GitHub repo size](https://img.shields.io/github/repo-size/SDHCAL/SDHCALCMakeModules) #
 Cmake modules for SDHCAL software compilation.
 
 ## Introduction 
