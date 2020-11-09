@@ -62,4 +62,4 @@ cmmm_modules_list(URL "https://raw.githubusercontent.com/SDHCAL/SDHCALCMakeModul
 include(Colors)
 ```
 ## Actual module list
-![in the "main" branch](https://github.com/SDHCAL/SDHCALCMakeModules/tree/main/modules)
+[in the "main" branch](https://github.com/SDHCAL/SDHCALCMakeModules/tree/main/modules)
