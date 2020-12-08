@@ -1,5 +1,5 @@
 # 📚 CMakeCM #
-![GitHub](https://img.shields.io/github/license/flagarde/CMakeCM) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/flagarde/CMakeCM) ![GitHub repo size](https://img.shields.io/github/repo-size/flagarde/CMakeCM) ![Tests Linux](https://github.com/flagarde/CMakeCM/workflows/Tests%20Linux/badge.svg) ![Tests MacOS](https://github.com/flagarde/CMakeCM/workflows/Tests%20MacOS/badge.svg) ![Tests Windows](https://github.com/flagarde/CMakeCM/workflows/Tests%20Windows/badge.svg)
+![GitHub](https://img.shields.io/github/license/SDHCAL/SDHCALCMakeModules) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/SDHCAL/SDHCALCMakeModules) ![GitHub repo size](https://img.shields.io/github/repo-size/SDHCAL/SDHCALCMakeModules) ![Tests Linux](https://github.com/SDHCAL/SDHCALCMakeModules/workflows/Tests%20Linux/badge.svg) ![Tests MacOS](https://github.com/SDHCAL/SDHCALCMakeModules/workflows/Tests%20MacOS/badge.svg) ![Tests Windows](https://github.com/SDHCAL/SDHCALCMakeModules/workflows/Tests%20Windows/badge.svg)
 
 CMake Community Modules
 
