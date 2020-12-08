@@ -1,4 +1,12 @@
 include_guard(GLOBAL)
+
+# Set the compiler standard to C++98
+macro(cxx_11)
+  set(CMAKE_CXX_STANDARD 98)
+  set(CMAKE_CXX_STANDARD_REQUIRED ON)
+  set(CMAKE_CXX_EXTENSIONS OFF)
+endmacro()
+
 # Set the compiler standard to C++11
 macro(cxx_11)
   set(CMAKE_CXX_STANDARD 11)
