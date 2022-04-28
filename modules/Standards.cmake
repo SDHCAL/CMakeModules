@@ -1,7 +1,7 @@
 include_guard(GLOBAL)
 
 # Set the compiler standard to C++98
-macro(cxx_11)
+macro(cxx_98)
   set(CMAKE_CXX_STANDARD 98)
   set(CMAKE_CXX_STANDARD_REQUIRED ON)
   set(CMAKE_CXX_EXTENSIONS OFF)
@@ -35,6 +35,13 @@ macro(cxx_20)
   set(CMAKE_CXX_EXTENSIONS OFF)
 endmacro()
 
+# Set the compiler standard to C++23
+macro(cxx_23)
+  set(CMAKE_CXX_STANDARD 23)
+  set(CMAKE_CXX_STANDARD_REQUIRED ON)
+  set(CMAKE_CXX_EXTENSIONS OFF)
+endmacro()
+
 # Set the compiler standard to C90
 macro(c_90)
   set(CMAKE_C_STANDARD 90)
@@ -55,3 +62,11 @@ macro(c_11)
   set(CMAKE_C_STANDARD_REQUIRED ON)
   set(CMAKE_C_EXTENSIONS OFF)
 endmacro()
+
+# Set the compiler standard to C17
+macro(c_17)
+  set(CMAKE_C_STANDARD 17)
+  set(CMAKE_C_STANDARD_REQUIRED ON)
+  set(CMAKE_C_EXTENSIONS OFF)
+endmacro()
+
