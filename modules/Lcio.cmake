@@ -8,7 +8,7 @@ if(NOT DEFINED LCIO_REPOSITORY)
 endif()
 
 if(NOT DEFINED LCIO_VERSION)
-  set(LCIO_VERSION "master")
+  set(LCIO_VERSION "main")
 endif()
 
 declare_option(REPOSITORY LCIO OPTION CMAKE_CXX_STANDARD VALUE "14")
