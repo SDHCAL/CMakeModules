@@ -36,7 +36,6 @@ CPMFindPackage(NAME lcio
               )
 
 if(lcio_ADDED)
-  set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
   add_library(Lcio INTERFACE)
   target_link_libraries(Lcio INTERFACE lcio)
   target_include_directories(Lcio INTERFACE "${lcio_SOURCE_DIR}/src/cpp/include/")
